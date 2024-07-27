@@ -12,7 +12,7 @@ function App() {
         <Header />
         <Routes>
         <Route exact path='/' element={<HomePages/>}/>
-        <Route path='/singlepage/:id' element={SinglePage}/>
+        <Route path='/singlepage/:id' element={<SinglePage/>}/>
         </Routes>
         <Footer/>
       </Router>
