@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import logo from 'C:/Users/singh/OneDrive/Desktop/MovieApp/movie/src/assets/Red and Beige Bold Typography Cosmetic Brand Logo.png'
+import logo from 'movie/src/assets/Red and Beige Bold Typography Cosmetic Brand Logo.png'
 
 const pages = ['Home', 'Series', 'Movies','Pricing','Pages','Contact'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
