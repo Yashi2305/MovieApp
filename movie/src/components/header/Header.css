@@ -1,0 +1,156 @@
+/* header {
+    height: 16vh;
+    line-height: 10vh;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    color: #fff;
+    position: relative;
+    z-index: 999;
+  }
+.logo img{
+    width: 150px;
+    margin-top:0;
+    margin-right: 50px;
+}
+header a{
+    margin-left:30px ;
+    color: #fff;
+}
+header i{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0 10px;
+    text-align: center;
+}
+header button{
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.toggle{
+ display: none;
+}
+@media only screen and (max-width:768px){
+    header nav.flexSB{
+        display: none;
+    }
+    .account{
+        display: none;
+    }
+    .toggle {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 20px;
+        margin: auto;
+        cursor: pointer;
+        background: none;
+      }
+    
+    .navMenu-list {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #e50813;
+        width: 50%;
+        height: 100vh;
+        z-index: 9999;
+      }
+      header ul li {
+        align-items: left;
+        margin-top: 30px;
+        padding: 0 50px;
+      }
+
+} */
+
+header {
+    height: 16vh;
+    line-height: 10vh;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    color: #fff;
+    position: relative;
+    z-index: 999;
+}
+
+.logo img {
+    width: 150px;
+    margin-top: 0;
+    margin-right: 50px;
+}
+
+header a {
+    margin-left: 30px;
+    color: #fff;
+    text-decoration: none; /* Ensure links are not underlined */
+}
+
+header i {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0 10px;
+    text-align: center;
+    display: flex; /* Ensures icons are centered */
+    align-items: center;
+    justify-content: center;
+}
+
+header button {
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px; /* Added padding for better appearance */
+    background-color: #e50813; /* Example background color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    header nav.flexSB {
+        display: none;
+    }
+    .account {
+        display: none;
+    }
+    .toggle {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: #fff;
+    }
+    
+    .navMenu-list {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #e50813;
+        width: 50%;
+        height: 100vh;
+        z-index: 9999;
+        padding-top: 30px;
+    }
+    header ul li {
+        margin-top: 30px;
+        padding: 0 50px;
+    }
+}
