@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import logo from 'movie/src/assets/ll.png'
+import llImage from '../../assets/ll.png';
 
 const pages = ['Home', 'Series', 'Movies','Pricing','Pages','Contact'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -56,7 +56,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-           <img src={logo} alt="Logo" style={{ width: '100px', height: '100px' }} />
+           <img src={llImage} alt="Logo" style={{ width: '100px', height: '100px' }} />
 
           </Typography>
 
@@ -113,7 +113,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-           <img src={logo} alt="Logo" style={{ width: '100px', height: '100px' }} />
+           <img src={llImage} alt="Logo" style={{ width: '100px', height: '100px' }} />
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' },justifyContent: 'center' }}>
             {pages.map((page) => (
