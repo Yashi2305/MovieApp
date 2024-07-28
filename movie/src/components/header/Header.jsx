@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import logo from "../../assets/ll.png"
+import logo from 'movie/src/assets/11.png'
 
 const pages = ['Home', 'Series', 'Movies','Pricing','Pages','Contact'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
